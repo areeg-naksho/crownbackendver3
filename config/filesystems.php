@@ -39,7 +39,7 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
-            'url' => env('APP_URL').'/crownfiles/storage/app/public',
+            'url' => env('APP_URL').'/storage/app/public',
             'visibility' => 'public',
         ],
 
@@ -69,7 +69,7 @@ return [
     */
 
     'links' => [
-        public_path('public_html/crownfiles/storage/app/public') => storage_path('app/public'),
+        public_path('public_html/storage/app/public') => storage_path('app/public'),
     ],
 
 ];
